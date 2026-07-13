@@ -4,7 +4,7 @@ A deep learning regression project that predicts the net hourly electrical energ
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project uses real-world sensor data (`Folds5x2_pp.xlsx`) collected from a Combined Cycle Power Plant over **6 years (2006–2011)**, containing **9,568 observations**, to train an Artificial Neural Network (ANN) that predicts the plant's **net hourly electrical energy output (PE)** based on ambient environmental conditions.
 
@@ -14,7 +14,7 @@ Unlike classification problems, this is a **regression task** — the model pred
 
 ---
 
-# 📊 Dataset
+#  Dataset
 
 The dataset (`Folds5x2_pp.xlsx`) contains four continuous input features and one continuous target variable, collected while the power plant was operating at full load.
 
@@ -36,7 +36,7 @@ The dataset (`Folds5x2_pp.xlsx`) contains four continuous input features and one
 
 ---
 
-# ⚙️ Tech Stack
+#  Tech Stack
 
 - Python 3
 - NumPy
@@ -49,7 +49,7 @@ The dataset (`Folds5x2_pp.xlsx`) contains four continuous input features and one
 
 ---
 
-# ✨ Features
+#  Features
 
 - Artificial Neural Network for Regression
 - TensorFlow / Keras implementation
@@ -65,7 +65,7 @@ The dataset (`Folds5x2_pp.xlsx`) contains four continuous input features and one
 
 ---
 
-# 🧭 Workflow
+#  Workflow
 
 1. Import required libraries.
 2. Load the dataset.
@@ -79,7 +79,7 @@ The dataset (`Folds5x2_pp.xlsx`) contains four continuous input features and one
 
 ---
 
-# 🔧 Data Preprocessing
+#  Data Preprocessing
 
 The preprocessing steps include:
 
@@ -111,7 +111,7 @@ Feature scaling helps the ANN:
 
 ---
 
-# 🧠 Model Architecture
+#  Model Architecture
 
 The Artificial Neural Network is built using TensorFlow/Keras Sequential API.
 
@@ -140,7 +140,7 @@ Output Layer (1 neuron, Linear)
 
 ---
 
-# 📈 Results & Evaluation
+#  Results & Evaluation
 
 Since this is a regression problem, classification metrics such as accuracy and confusion matrix are not suitable.
 
@@ -162,7 +162,7 @@ The model explains approximately **91% of the variance** in the power output whi
 
 ---
 
-# 📊 Visualizations
+#  Visualizations
 
 The notebook includes:
 
@@ -197,7 +197,7 @@ A good model should have residuals randomly distributed around zero.
 
 ---
 
-# 🚀 How to Run
+#  How to Run
 
 ## 1. Clone Repository
 
@@ -231,20 +231,19 @@ jupyter notebook artificial_neural_network_regression.ipynb
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```
 combined-cycle-power-plant-ann/
 │
 ├── artificial_neural_network_regression.ipynb
 ├── Folds5x2_pp.xlsx
-├── README.md
-└── LICENSE
+└── README.md
 ```
 
 ---
 
-# 📓 Notebook Structure
+#  Notebook Structure
 
 ```
 Artificial Neural Network (Regression)
@@ -281,13 +280,13 @@ Artificial Neural Network (Regression)
 
 ---
 
-# 📝 License
+#  License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-# 🙋‍♂️ Author
+#  Author
 
 **Khaled Alzeer**
 
